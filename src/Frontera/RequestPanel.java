@@ -17,13 +17,13 @@ public class RequestPanel extends javax.swing.JPanel {
      * Creates new form RequestPanel
      */
     public NewRequestPanel newRequest;
-    public ViewRequest viewRequests;
+    public ViewRequests viewRequests;
     public EditRequest editRequest;
     
     public RequestPanel() {
         initComponents();
         newRequest = new NewRequestPanel();
-        viewRequests = new ViewRequest();
+        viewRequests = new ViewRequests();
         editRequest = new EditRequest();
         PanelUtils.change(addRequestTab, newRequest);
         
